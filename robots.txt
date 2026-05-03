@@ -1,0 +1,19 @@
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Zalo
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://tanthanhlinhchi.online/sitemap.xml
