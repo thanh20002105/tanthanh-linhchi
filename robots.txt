@@ -4,6 +4,15 @@ Allow: /
 User-agent: Facebot
 Allow: /
 
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
 User-agent: Twitterbot
 Allow: /
 
