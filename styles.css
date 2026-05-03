@@ -2131,6 +2131,26 @@ button {
   }
 }
 
+@keyframes dragon-fly-forward-mobile {
+  0% {
+    transform: scale(var(--fly-scale-x, 1), 1);
+    filter: blur(0);
+    opacity: 0.66;
+  }
+
+  45% {
+    transform: scale(calc(var(--fly-scale-x, 1) * 1.22), 1.22);
+    filter: blur(1px);
+    opacity: 0.56;
+  }
+
+  100% {
+    transform: scale(calc(var(--fly-scale-x, 1) * 1.7), 1.7);
+    filter: blur(5px);
+    opacity: 0;
+  }
+}
+
 @media (min-width: 600px) {
   .cover-card {
     width: 560px;
@@ -2461,6 +2481,39 @@ button {
 @media (max-width: 430px) {
   .page {
     width: 100%;
+  }
+
+  .cover-content {
+    padding: 92px 24px 50px;
+  }
+
+  .cover-invite {
+    margin-top: 34px;
+    margin-bottom: 10px;
+  }
+
+  .open-card {
+    margin-top: 0;
+  }
+
+  .opening-dragon {
+    width: 190px;
+    max-width: 48vw;
+    opacity: 0.62;
+  }
+
+  .opening-dragon-left {
+    top: calc(50% - 128px);
+    left: calc(50% - 210px);
+  }
+
+  .opening-dragon-right {
+    right: calc(50% - 210px);
+    bottom: calc(50% - 150px);
+  }
+
+  .cover.opening .opening-dragon {
+    animation-name: dragon-fly-forward-mobile;
   }
 
   .couple {
