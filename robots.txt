@@ -25,4 +25,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://tanthanhlinhchi.online/sitemap.xml
+Sitemap: https://www.tanthanhlinhchi.online/sitemap.xml
